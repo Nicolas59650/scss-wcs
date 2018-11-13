@@ -1,0 +1,23 @@
+@mixin sizeRing($height, $color) {
+  height: $height;
+  width: $height;
+  border: $height / 12 solid $color;
+  color: $color;
+  border-radius: 50%;
+  box-shadow: $height / 30 $height / 30 $height / 30 darken($color, 50);
+}
+.firstRing {
+  @include sizeRing(80px, rgb(254, 102, 29));
+}
+
+.secondRing {
+  @include sizeRing(150px, rgb(254, 231, 4));
+}
+
+@for $i from 1 through 6 {
+  .thirdRing:nth-child(#{$i}) {
+    $size: 10px;
+    @include sizeRing(40px + $size * $i, rgb(99, 99, 93));
+    margin-left: -20px;
+  }
+}

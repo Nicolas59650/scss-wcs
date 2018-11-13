@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Aniron";
+  src: url("Fonts/anicb___.ttf") format("truetype"),
+    url("Fonts/anicm___.ttf") format("truetype"),
+    url("Fonts/anirb___.ttf") format("truetype"),
+    url("Fonts/anirm___.ttf") format("truetype");
+}
+
+.bg-dark,
+footer {
+  background-color: rgb(254, 102, 29) !important;
+}
+
+body {
+  font-family: Aniron;
+}
+
+footer {
+  color: white;
+}
+
+section {
+  background-image: url("bg_light.png");
+}
+
+.ringPlace {
+  padding-top: 2%;
+  font-size: 20px;
+}
+
+.firstRing {
+  height: 80px;
+  width: 80px;
+  border: 6.6666666667px solid #fe661d;
+  color: #fe661d;
+  border-radius: 50%;
+  box-shadow: 2.6666666667px 2.6666666667px 2.6666666667px #1c0900;
+}
+
+.secondRing {
+  height: 150px;
+  width: 150px;
+  border: 12.5px solid #fee704;
+  color: #fee704;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px #030300;
+}
+
+.thirdRing:nth-child(1) {
+  height: 50px;
+  width: 50px;
+  border: 4.1666666667px solid #63635d;
+  color: #63635d;
+  border-radius: 50%;
+  box-shadow: 1.6666666667px 1.6666666667px 1.6666666667px black;
+  margin-left: -20px;
+}
+
+.thirdRing:nth-child(2) {
+  height: 60px;
+  width: 60px;
+  border: 5px solid #63635d;
+  color: #63635d;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px black;
+  margin-left: -20px;
+}
+
+.thirdRing:nth-child(3) {
+  height: 70px;
+  width: 70px;
+  border: 5.8333333333px solid #63635d;
+  color: #63635d;
+  border-radius: 50%;
+  box-shadow: 2.3333333333px 2.3333333333px 2.3333333333px black;
+  margin-left: -20px;
+}
+
+.thirdRing:nth-child(4) {
+  height: 80px;
+  width: 80px;
+  border: 6.6666666667px solid #63635d;
+  color: #63635d;
+  border-radius: 50%;
+  box-shadow: 2.6666666667px 2.6666666667px 2.6666666667px black;
+  margin-left: -20px;
+}
+
+.thirdRing:nth-child(5) {
+  height: 90px;
+  width: 90px;
+  border: 7.5px solid #63635d;
+  color: #63635d;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px black;
+  margin-left: -20px;
+}
+
+.thirdRing:nth-child(6) {
+  height: 100px;
+  width: 100px;
+  border: 8.3333333333px solid #63635d;
+  color: #63635d;
+  border-radius: 50%;
+  box-shadow: 3.3333333333px 3.3333333333px 3.3333333333px black;
+  margin-left: -20px;
+}
